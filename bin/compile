@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-shopt -s dotglob
+#shopt -s dotglob
 set -e
+
+echo "-----> Starting compile"
 
 # ------------------------------------------------------------------------------------------------
 #        compile_build_dir: /tmp/staged/app
